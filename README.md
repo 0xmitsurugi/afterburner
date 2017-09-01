@@ -17,9 +17,11 @@ can be recompiled, modified, so they are not very stable in time. I think that
 the network protocol is the one that doesn't change really often.
 
 So, the idea is to write innocuous client implementing the network protocol
-used by a botnet, and monitor its activity.
+used by a botnet, and monitor its activity. The idea came from this other 
+blogpost where I've followed a DDosbot linux client: http://0x90909090.blogspot.fr/2016/06/sandboxing-linux-malware-with-gdb.html
 
-Here is a live session, where the botmaster launches DDOS on a victim:
+Here is a live session of the bot I've called [wake](https://github.com/0xmitsurugi/afterburner/tree/master/WakeUp), where the botmaster 
+launches DDOS on a victim:
 ![bot session](WakeUp/wakeup.png)
 
 ## Wake-Up project
