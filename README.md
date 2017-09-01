@@ -19,6 +19,9 @@ the network protocol is the one that doesn't change really often.
 So, the idea is to write innocuous client implementing the network protocol
 used by a botnet, and monitor its activity.
 
+Here is a live session, where the botmaster launches DDOS on a victim:
+![bot session](WakeUp/wakeup.png)
+
 ## Wake-Up project
 A malware has been reversed here http://0x90909090.blogspot.fr/2017/08/meet-wake-malware-ddos-and-more.html
 You can find in WakeUp directory a client and some utilities.
